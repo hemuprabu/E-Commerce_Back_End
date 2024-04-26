@@ -6,7 +6,7 @@ E-Commerce Back End
 
 ## Description:
 
-E-Commerce Back End is a command-line application that helps businesses manage their employees, departments, and roles efficiently. With E-Commerce Back End, users can add, view, update, and delete employees, departments, and roles in a centralized database.
+E-Commerce Back End project involves building the back end for an e-commerce site using Express.js API and Sequelize to interact with a PostgreSQL database.
 
 ## Installation:
 
@@ -20,11 +20,26 @@ To run the E-Commerce Back End application, follow these steps to install the re
 
 2. cd E-Commerce Back End
 
-3. running npm install to install necessary packages.
+3. Run npm install to install dependencies.
+
+4. Set up the database by running the provided SQL files.
+
+5. Create a .env file with your database credentials.
+
+
+## Technologies Used:
+
+Express.js
+
+Sequelize
+
+PostgreSQL
 
 ## Usage:
 
-To run the E-Commerce Back End application and generate employee data, follow these steps:
+Run the application using npm start.
+
+Access the API endpoints to interact with the e-commerce site. follow these steps:
 
 1. Start the application by running the following command in your terminal:
    ``` bash
@@ -165,22 +180,7 @@ Your database should contain the following four models, including the requiremen
 
 ### Walkthrough Video
 
-* A walkthrough video that demonstrates the functionality of the e-commerce back end must be submitted, and a link to the video should be included in your readme file.
-
-* The walkthrough video must show all of the technical acceptance criteria being met.
-
-* The walkthrough video must demonstrate how to create the schema from the PostgreSQL shell.
-
-* The walkthrough video must demonstrate how to seed the database from the command line.
-
-* The walkthrough video must demonstrate how to start the application’s server.
-
-* The walkthrough video must demonstrate GET routes for all categories, all products, and all tags being tested in Insomnia.
-
-* The walkthrough video must demonstrate GET routes for a single category, a single product, and a single tag being tested in Insomnia.
-
-* The walkthrough video must demonstrate POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia.
-
+Check out this video I recorded with Screencastify: https://drive.google.com/file/d/16ggwlrsJZXpoZZGi1_1SNBp0uIydbgRV/view
 
 
 ### Repository Quality
@@ -197,10 +197,11 @@ Your database should contain the following four models, including the requiremen
 
 ## Screenshots
 
-![Screenshot 2024-04-22 195952](https://github.com/hemuprabu/Employee_Tracker/assets/108079829/db1f4471-1d2e-4809-86fc-99782d1c6d4a)
-![Screenshot 2024-04-22 200256](https://github.com/hemuprabu/Employee_Tracker/assets/108079829/9bd33d85-0478-470e-a89b-3c36f3b8e515)
-![Screenshot 2024-04-22 200411](https://github.com/hemuprabu/Employee_Tracker/assets/108079829/66b8b65e-edfe-41e1-9c61-8e2c675fea26)
-
+![Screenshot 2024-04-25 232151](https://github.com/hemuprabu/E-Commerce_Back_End/assets/108079829/33fd8acc-b1ad-4415-a730-a475f07693f2)
+![Screenshot 2024-04-25 232337](https://github.com/hemuprabu/E-Commerce_Back_End/assets/108079829/a60d0d38-172b-4f24-9403-d5a654a45518)
+![Screenshot 2024-04-25 232348](https://github.com/hemuprabu/E-Commerce_Back_End/assets/108079829/95f03fb5-4d82-4162-a232-c3923e31fe96)
+![Screenshot 2024-04-25 232400](https://github.com/hemuprabu/E-Commerce_Back_End/assets/108079829/cc9b570b-38b9-45f8-9c80-37f781bbd5b5)
+![Screenshot 2024-04-25 232411](https://github.com/hemuprabu/E-Commerce_Back_End/assets/108079829/c3aca6d8-9e6e-4424-a443-82936cd751f6)
 
 ## License:
 
