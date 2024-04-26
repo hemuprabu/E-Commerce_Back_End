@@ -69,19 +69,22 @@ router.put('/:id', async (req, res) => {
   }
 });
 
-router.delete('/:id', async (req, res) => {
+router.delete('/:id',  (req, res) => {
   // delete a category by its `id` value
-  try {
-    const category = await Category.findByPk(req.params.id);
-    if (!category) {
-      return res.status(404).json({ message: 'Category not found' });
-    }
-    await category.destroy();
-    res.json({ message: 'Category deleted successfully' });
-  } catch (error) {
-    console.error(error);
-    res.status(500).json({ message: 'Server Error' });
-  }
+  const categoryId = req.params.id;
+
+  // Delete the category and cascade to related product records
+  Category.destroy({
+    where: { id: categoryId },
+    cascade: true // This is a hypothetical option, actual syntax may vary based on your ORM or database setup
+  })
+    .then(() => {
+      res.status(200).json({ message: 'Category and related products deleted successfully' });
+    })
+    .catch((err) => {
+      console.error(err);
+      res.status(500).json({ error: 'Failed to delete category and related products' });
+    });
 });
 
 module.exports = router;
