@@ -180,7 +180,7 @@ Your database should contain the following four models, including the requiremen
 
 ### Walkthrough Video
 
-Check out this video I recorded with Screencastify: https://drive.google.com/file/d/16ggwlrsJZXpoZZGi1_1SNBp0uIydbgRV/view
+Check out this video I recorded with Screencastify: https://drive.google.com/file/d/11eOFPYak5Y2U3UdlJHhU1vJrJOjAe_2B/view
 
 
 ### Repository Quality
